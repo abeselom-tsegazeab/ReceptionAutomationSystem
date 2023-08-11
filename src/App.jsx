@@ -26,8 +26,9 @@ function App() {
   )
 }
 
-
-// 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
+// git remote set-url origin git@github.com:USERNAME/REPONAME.git
+// git remote set-url origin https://github.com/abeselom-tsegazeab/ReceptionAutomationSystem.git
+// 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
 
 
 export default App
