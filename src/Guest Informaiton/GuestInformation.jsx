@@ -1,5 +1,9 @@
+import './customerInfo.css'
 const GuestInformaion = () => {
   return (
+    <div className="container">
+
+   
     <div className="rectangle-parent">
       <div className="frame-child" />
       <input
@@ -119,19 +123,17 @@ const GuestInformaion = () => {
       </div>
       <input className="frame-child9" type="text" />
       <input className="frame-child10" type="text" required id="upload" />
-      <button className="rectangle-button" />
-      <div className="submit">
-        <span className="submit-txt">
-          <span>{`     `}</span>
-          <span className="submit1">SUBMIT</span>
-        </span>
-      </div>
+     
+        <button className='submit'>
+          SUBMIT
+        </button>
       <div className="ellipse-div" />
       <input className="frame-child11" type="radio" required />
       <input className="frame-child12" type="radio" required />
       <div className="male">Male</div>
       <div className="female">Female</div>
-    </div>
+      </div>
+      </div>
   );
 };
 
